@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Type Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="title">Pokemon Type Game</h1>
+    <div class="start">
+        <button id="startButton" onclick="startGame()">Play</button>
+    </div>
+    
+    <div class = "images">
+        <div>
+            <h1 id="points">Points: 0</h1>
+        </div>
+        <div class="pokemon">
+            <figure>
+                <img id="attack" src="attack.png" width="500" height="500">
+                <figcaption id="attacking">ATTACKING</figcaption>
+                <figcaption id="type1">type</figcaption>
+            </figure>
+            <figure>
+                <img id="defend" src="defend.png" width="500" height="500">
+                <figcaption id="defending">DEFENDING</figcaption>
+                <figcaption id="type2">type</figcaption>
+            </figure>
+        </div>
+            
+        
+        <div class="answers">
+            <button id="super-effective" onclick="superEffective()">SUPER EFFECTIVE</button>
+            <button id="neutral" onclick="neutral()">NEUTRAL</button>
+            <button id="not-very-effective" onclick="notVeryEffective()">NOT VERY EFFECTIVE</button>
+            <button id="no-effect" onclick="noEffect()">NO EFFECT</button>
+        </div>
+    </div>
+</body>
+</html>

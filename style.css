@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'pokemon_hollownormal';
+    src: url('pokemon-hollow-webfont.woff2') format('woff2'),
+         url('pokemon-hollow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'pokemon_solidnormal';
+    src: url('pokemon-solid-webfont.woff2') format('woff2'),
+         url('pokemon-solid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color: azure;
+    overflow-y: hidden;
+}
+h1{
+    font-family: 'pokemon_hollownormal';
+    font-weight: normal;
+
+    text-align: center;
+    font-size: 8em;
+    color: blue;
+}
+
+button{
+    font-family: 'pokemon_solidnormal';
+    font-weight: normal;
+
+    text-align: center;
+    background-color: aliceblue;
+    border: none;
+}
+
+#startButton {
+    color: blue;
+    font-size: 3em;
+}
+
+#startButton:hover {
+    color: rgb(17, 218, 17);
+    font-size: 3em;
+}
+.start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1000px;
+    margin-bottom: 500px;
+}
+
+figure{
+    display: inline-block;
+    margin: 50px;
+}
+
+figure figcaption{
+    font-family: 'pokemon_solidnormal';
+    font-weight: normal;
+    text-align: center;
+
+    font-size: 3em;
+}
+
+#attacking {
+    color: red;
+}
+
+#defending {
+    color: green;
+}
+
+.answers {
+    display:grid;
+    grid-gap: 30px
+}
+
+#super-effective {
+    border-radius: 50px;
+    background-color: rgb(114, 226, 114);
+    color: green;
+    font-size: 3em;
+}
+#super-effective:hover {
+    border-radius: 50px;
+    background-color: rgb(8, 83, 8);
+    color: green;
+    font-size: 3em;
+}
+
+#neutral {
+    border-radius: 50px;
+    background-color: rgb(124, 124, 236);
+    color: blue;
+    font-size: 3em;
+}
+#neutral:hover {
+    border-radius: 50px;
+    background-color: rgb(20, 20, 104);
+    color: blue;
+    font-size: 3em;
+}
+
+#not-very-effective {
+    border-radius: 50px;
+    background-color: rgb(235, 150, 150);
+    color: red;
+    font-size: 3em;
+}
+#not-very-effective:hover {
+    border-radius: 50px;
+    background-color: rgb(116, 21, 21);
+    color: red;
+    font-size: 3em;
+}
+
+#no-effect {
+    border-radius: 50px;
+    background-color: rgb(158, 147, 147);
+    color: black;
+    font-size: 3em;
+}
+#no-effect:hover {
+    border-radius: 50px;
+    background-color: rgb(54, 52, 52);
+    color: black;
+    font-size: 3em;
+}
+
+#type1, #type2 {
+    font-size: 3em;
+    color: rgb(58, 55, 55);
+}
